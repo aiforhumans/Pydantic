@@ -30,6 +30,10 @@ This folder contains comprehensive examples of PydanticAI Agents working with yo
 - Context sharing between tools
 - Interactive assistant interface
 
+### 5. `sdxl_prompt_agent.py` - SDXL Prompt Generator
+- Generates Stable Diffusion XL prompts
+- Returns positive and negative prompts using structured output
+
 ## How to Run
 
 Make sure LM Studio is running with your model loaded, then:
@@ -46,6 +50,8 @@ python advanced_agent.py
 
 # Multi-tool assistant
 python multi_tool_agent.py
+# SDXL prompt generator
+python sdxl_prompt_agent.py
 ```
 
 ## Key Concepts Demonstrated

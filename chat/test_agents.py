@@ -22,6 +22,7 @@ def main():
         'simple_agent.py',
         'roulette_agent.py', 
         'advanced_agent.py',
+        'sdxl_prompt_agent.py',
         'multi_tool_agent.py'
     ]
     
@@ -44,6 +45,7 @@ def main():
     print("\n📋 Usage:")
     print("python simple_agent.py      # Basic agent chat")
     print("python roulette_agent.py    # Roulette game with tools")
+    print("python sdxl_prompt_agent.py  # SDXL prompt generator")
     print("python advanced_agent.py    # All run methods demo")
     print("python multi_tool_agent.py  # Multi-tool assistant")
 
