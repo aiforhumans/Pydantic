@@ -55,8 +55,8 @@ def interactive_prompting() -> None:
 
         try:
             result = sdxl_agent.run_sync(user_input)
-            print(f"\nPositive: {result.data.prompt}")
-            print(f"Negative: {result.data.negative_prompt}")
+            print(f"\nPositive: {result.output.prompt}")
+            print(f"Negative: {result.output.negative_prompt}")
         except Exception as exc:
             print(f"Error: {exc}")
 
